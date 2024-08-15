@@ -284,3 +284,18 @@ body {
     z-index: 0;
     height: 100%;
 }
+
+.content .main_content {
+
+}
+
+.content .main_content .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content .main_content .cards .card_item {
+    height: 200px;
+    width: 350px;
+    background-color: yellow;
+}
